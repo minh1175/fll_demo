@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1043916779159",
+    "firebase_url": "https://gametector-29ef5.firebaseio.com",
+    "project_id": "gametector-29ef5",
+    "storage_bucket": "gametector-29ef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043916779159:android:1d9e27319952a8185803d2",
+        "android_client_info": {
+          "package_name": "com.gametector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043916779159-q2gct90h6ab1232s1ok295p4o0nl4huu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gametector",
+            "certificate_hash": "9d3eba403dff8e5afa09e89fe5ac915a61720838"
+          }
+        },
+        {
+          "client_id": "1043916779159-b7rsvjm2l6ke9sf9of5qgdq6qr7q8c6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gametector",
+            "certificate_hash": "aec482788bc92bbba446a045a1bf645647f4a8f0"
+          }
+        },
+        {
+          "client_id": "1043916779159-ag7ngdsl66fu7pno3p09u3qasmrdep26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gametector",
+            "certificate_hash": "d9e01b8cb660e03bdecf0751736c8f6777f089a2"
+          }
+        },
+        {
+          "client_id": "1043916779159-bpeq0abog5a9ci0srcbl24n3ke4e7d2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe6SM-nhHTwamWDqym4qmiqK97kEXmJvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043916779159-bpeq0abog5a9ci0srcbl24n3ke4e7d2r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1043916779159-vi2j4lbtr73rdcv4rmsousr2k39kqt4r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gametector"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

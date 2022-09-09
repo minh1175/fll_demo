@@ -1,0 +1,191 @@
+name: Gametector
+description: Gametector Flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 2.0.7
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # app icon
+  flutter_launcher_icons: ^0.9.2
+
+  # For Google and Firebase
+  firebase_analytics: ^9.1.12
+  firebase_messaging: ^11.1.0
+  firebase_crashlytics: ^2.8.4
+  firebase_core: ^1.10.0
+  firebase_dynamic_links: ^4.0.7
+  #control notification in android & ios
+  flutter_local_notifications: ^9.0.3
+  #iOS notification badge
+  flutter_app_badger: ^1.4.0
+
+  #Twitter Auth
+  firebase_auth: ^3.2.0
+  twitter_login: ^4.0.1
+
+  #Apple Auth
+  flutter_signin_button: ^2.0.0
+  sign_in_with_apple: ^3.3.0
+
+  #For Networking
+  dio: ^4.0.0
+  dio_cookie_manager: ^2.0.0
+  pretty_dio_logger: ^1.1.1
+  cookie_jar: ^3.0.0
+  path_provider: ^2.0.1
+  rxdart: ^0.26.0
+  device_info_plus: ^3.1.1
+  package_info: ^2.0.2
+  pull_to_refresh: ^2.0.0
+  cached_network_image: ^3.2.2
+
+  # For Architecture
+  provider: ^6.0.1
+  get: ^4.6.1
+  #dependency injection
+  get_it: ^7.2.0
+
+  #Lazy Json Serialization
+  json_serializable: ^6.1.1
+  json_annotation: ^4.4.0
+
+  #For Local Storage
+  shared_preferences: ^2.0.8
+
+  #For Permission
+  permission_handler: ^10.0.0
+
+  # Save image
+  image_gallery_saver: ^1.7.1
+  #For UI
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.8
+  flutter_svg: ^0.23.0+1
+  bouncing_widget: ^2.0.0
+  roundcheckbox: ^2.0.4
+  flutter_staggered_grid_view: ^0.6.1
+  expandable: ^5.0.1
+  custom_radio_grouped_button: ^2.1.2
+  #multi adapting screen and font size
+  flutter_screenutil: ^5.0.0+2
+  intl: ^0.17.0
+  #format date time for parsing
+  jiffy: ^4.1.0
+  flutter_spinkit: ^5.1.0
+  page_transition: ^2.0.4
+  webview_flutter: ^2.3.1
+  transparent_image: ^2.0.0
+
+  #launch browser
+  url_launcher: ^6.0.18
+
+  #thumbnail for chat
+  flutter_link_previewer: ^3.0.1
+  any_link_preview: ^2.0.9
+
+  #link
+  flutter_linkify: ^5.0.2
+
+  #format string
+  sprintf: ^6.0.0
+
+  # save widget as image
+  screenshot: ^1.2.3
+
+  #Share to SNS
+  share: ^2.0.4
+
+  #For large log
+  logger: ^1.1.0
+
+  #For observer
+  flutter_observer: ^2.0.0
+
+  #For access local image
+  image_picker: ^0.8.4+10
+  flutter_bloc: ^8.0.1
+
+  #image compress
+  flutter_image_compress: ^1.1.0
+
+  #For Socket
+  web_socket_channel: ^2.2.0
+
+  #event bus
+  event_bus: ^2.0.0
+
+  #For File Picker:
+  file_picker: ^4.4.0
+
+  #Connect Network
+  connectivity: ^3.0.6
+  #Detect Keyboard
+  flutter_keyboard_visibility: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #lint flutter
+  flutter_lints: ^1.0.0
+  #auto gen
+  build_runner:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "asset/icons/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+  # res icon, image, sound...
+  assets:
+    - asset/icons/
+    - asset/images/
+
+  # fonts custom:
+  fonts:
+    - family: SVN Gilroy
+      fonts:
+        - asset: asset/fonts/svn_gilroy_thin.otf
+          weight: 100
+        - asset: asset/fonts/svn_gilroy_thin_italic.otf
+          weight: 100
+          style: italic
+        - asset: asset/fonts/svn_gilroy_light.otf
+          weight: 200
+        - asset: asset/fonts/svn_gilroy_light_italic.otf
+          weight: 200
+          style: italic
+        - asset: asset/fonts/svn_gilroy_regular.otf
+          weight: 400
+        - asset: asset/fonts/svn_gilroy_medium.otf
+          weight: 500
+        - asset: asset/fonts/svn_gilroy_medium_italic.otf
+          weight: 500
+          style: italic
+        - asset: asset/fonts/svn_gilroy_bold.otf
+          weight: 600
+        - asset: asset/fonts/svn_gilroy_bold_italic.otf
+          weight: 600
+          style: italic
+        - asset: asset/fonts/svn_gilroy_semibold.otf
+          weight: 700
+        - asset: asset/fonts/svn_gilroy_semibold_italic.otf
+          weight: 700
+          style: italic
+        - asset: asset/fonts/svn_gilroy_heavy.otf
+          weight: 800
+        - asset: asset/fonts/svn_gilroy_heavy_italic.otf
+          weight: 800
+          style: italic
+        - asset: asset/fonts/svn_gilroy_black.otf
+          weight: 900
+        - asset: asset/fonts/svn_gilroy_black_italic.otf
+          weight: 900
+          style: italic
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://develop.gametector.com/</domain>
+        <domain includeSubdomains="true">https://socket.develop.gametector.com/</domain>
+    </domain-config>
+</network-security-config>
